@@ -8,7 +8,7 @@ BASE_URL = "https://api.opendota.com/api"
 def get_data(endpoint):
     url = f"{BASE_URL}{endpoint}"
     try:
-        resp = requests.get(url, timeout=15) # Увеличил таймаут для списков
+        resp = requests.get(url, timeout=15)
         resp.raise_for_status()  
         return resp.json()
     except Exception as e:
