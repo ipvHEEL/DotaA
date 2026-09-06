@@ -1,0 +1,7 @@
+РАБОЧИЕ РУЧКИ OPENDOTA API:
+
+https://api.opendota.com/api/
+https://api.opendota.com/api/players/{account_id}
+https://api.opendota.com/api/players/{account_id}/wordcloud
+https://api.opendota.com/api/matches/{match_id}
+https://api.opendota.com/api/heroes

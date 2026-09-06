@@ -1,0 +1,8 @@
+services:
+    backend:
+      container_name: access-backend
+      build: ./backend
+      ports:
+        - "8079:8079"
+      volumes:
+        - "./backend:/app"
